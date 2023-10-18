@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+/* ====================================== */
+.container1 {
+  /* display: none; */
+  border: 3px solid #d40000;
+  border-radius: 50px;
+  width: 800px;
+  padding: 20px;
+  margin: 5px auto;
+}
+/*     Question 6      */
+
+button {
+  border: none;
+  margin: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #614466;
+}
+
+button:hover {
+  background-color: #b24fcd;
+}
+
+.paragh {
+  font-size: 30px;
+  font-weight: 700;
+}
+.center {
+  width: 300px;
+}

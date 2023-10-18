@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import FrameworkAndLibrary from "./ComponentHw17/q1";
+import ReactAdvantages from "./ComponentHw17/q2";
+import Jsx from "./ComponentHw17/q3";
+import Component from "./ComponentHw17/q4";
+import SayHi from "./ComponentHw17/q5";
+import Counter from "./ComponentHw17/q6";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <FrameworkAndLibrary />
+      <ReactAdvantages />
+      <Jsx />
+      <Component />
+      <SayHi />
+      <Counter />
     </div>
   );
 }
